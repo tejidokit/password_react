@@ -1,0 +1,27 @@
+
+.frontpage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color:skyblue;
+  margin-top: 0 auto;
+  border: yellow solid;
+}
+
+
+
+.submit-btn {
+      display: block;
+      width: 115px;
+      height: 25px;
+      background: #4E9CAF;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      line-height: 25px;
+}
