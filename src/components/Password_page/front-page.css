@@ -11,12 +11,20 @@
   border: yellow solid;
 }
 
-
+.password-input {
+  border: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 22px;
+  width: 250px;
+  border-radius: 3px;
+  outline: none;
+}
 
 .submit-btn {
       display: block;
       width: 115px;
-      height: 25px;
+      /* height: 25px; */
       background: #4E9CAF;
       padding: 10px;
       text-align: center;
@@ -24,4 +32,12 @@
       color: white;
       font-weight: bold;
       line-height: 25px;
+      text-decoration: none;
+      border: none;
+      outline: none;
+}
+
+.submit-btn:hover {
+      background-color:red;
+      border: none;
 }
